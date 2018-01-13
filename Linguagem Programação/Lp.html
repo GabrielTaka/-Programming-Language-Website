@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Linguagem de Programação</title>
+    <script src="_java/funcao.js"></script>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css">
+
+</head>
+
+
+<body>
+    <div id="index">
+        <header>
+            <h1 class="principal">Programação</h1>
+            <h3 class="secundario">O inglês do séculos XXI</h3>
+            <img id="icone" src="_imagens/worldigital.jpeg">
+            <nav id="menu">
+                <ul>
+                    <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/worldigital.jpeg')">
+                        <a href="Lp.html"> Home</a>
+                    </li>
+                    <li onmouseover="mudaFoto('_imagens/especificacoes-02.png')" onmouseout="mudaFoto('_imagens/worldigital.jpeg')">
+                        <a href="liguagens.html"> Conheça algumas linguagens</a>
+                    </li>
+                    <li onmousemove="mudaFoto('_imagens/livros.jpeg')" onmouseout="mudaFoto('_imagens/worldigital.jpeg')">
+                        <a href="cursos.html"> Cursos</a>
+                    </li>
+                    
+                    </li>
+                    <li onmousemove="mudaFoto('_imagens/duvida.jpeg')" onmouseout="mudaFoto('_imagens/worldigital.jpeg')">
+                        <a href="duvidas.html"> Duvidas</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="corpo">
+
+            <article>
+                <header id="cabecalho2"> 
+                <h3>Tecnologia > Inovações</h3>
+                <h1>Saiba tudo sobre Programação</h1>
+                <h3 class="intro">por Gabriel Takahashi</h2>
+                <h3 class="direita">Atualizado em 01/Dezembro/2017</h3>
+                </header>
+            <h2 class="imovel">O que são linguagens de programação?</h2>
+            <p>Podemos imaginar o computador como uma super calculadora, capaz de fazer cálculos muito mais rápido que nós,
+                mas para isso devemos dizer para o computador o que deve ser calculado e como deve ser calculado. A função
+                das linguagens de programação é exatamente essa, ou seja, servir de um meio de comunicação entre computadores
+                e humanos.</p>
+
+            <p>Existem dois tipos de linguagens de programação: as de baixo nível e as de alto nível. Os computadores interpretam
+                tudo como números em base binária, ou seja, só entendem zero e um. As linguagens de baixo nível são interpretadas
+                diretamente pelo computador, tendo um resultado rápido, porém é muito difícil e incômodo se trabalhar com
+                elas. Exemplos de linguagens de baixo nível são a linguagem binária e a linguagem Assembly.</p>
+            <figure class="assembly">
+                <br>
+                <h2 class="movel">Exemplo de código em Assembly</br>
+                </h2>
+                <code>
+                    <br>MOV r0, #0C ;load base address of string into </br>
+                    <br>LOAD: MOV r1,(r0) ;load contents into r1</br>
+                    <br>CALL PRINT ; call a print routine to print the character in r1</br>
+                    <br>INC r0 ;point to next character</br>
+                    <br>JMP LOAD ;load next character</br>
+                    <br></br>
+                </code>
+            </figure>
+            <figure class="assembly1">
+                <img src="_imagens/assembly.png">
+                <figcaption class="legenda1">
+                    <h1>Logo tipo da Linguagem AssembY</h1>
+                    <b>Linguagem bastante complicada!</b>
+                </figcaption>
+            </figure>
+            <p>Já as linguagens de alto nível são mais fáceis de se trabalhar e de entender, as ações são representadas por
+                palavras de ordem (exemplo faça, imprima, etc) geralmente em inglês, foram feitos assim para facilitar a
+                memorização e a lógica. Elas não são interpretadas diretamente pelo computador, sendo necessário traduzí-las
+                para linguagem binária utilizando-se de um programa chamado compilador.</p>
+
+            <p>Quando programamos em uma linguagem de programação de alto nível primeiramente criamos um arquivo de texto comum
+                contendo a lógica do programa, ou seja, é onde falamos ao computador como deve ser feito o que queremos.
+                Este arquivo de texto é chamado de código-fonte, cada palavra de ordem dentro do código-fonte é chamada de
+                instrução. Após criarmos o código-fonte devemos traduzir este arquivo para linguagem binária usando o compilador
+                correspondente com a linguagem na qual estamos programando. O compilador irá gerar um segundo arquivo que
+                chamamos de executável ou programa, este arquivo gerado é interpretado diretamente pelo computador.</p>
+
+            <p>Existem algumas linguagens de programação que não necessitam de compiladores, como o PHP, uma linguagem dedicada
+                à produção de websites dinâmicos, como o InfoEscola. As instruções em PHP são compiladas e executadas ao
+                mesmo tempo.</p>
+            <figure class="php">
+                <br>
+                <h2 class="movel">Exemplo de código PHP (alto nível)</h2>
+                <br>
+                <code>
+                    <br>print ("Bem vindos visitantes do Grabson!");</br>
+                    <br>print (" Vamos contar até 50:");</br>
+                    <br>for($x=1;$x
+                    <=50;$x++) {</br>
+                        <br>print $x;</br>
+                        <br>print " ";</br>
+                        <br>}</br>
+                        <br>if(4 == 2) {</br>
+                        <br>print ("Fim do mundo! 4 é igual a 2!");</br>
+                        <br>} else {</br>
+                        <br>print ("Ufa! 4 é diferente de 2");</br>
+                        <br>}</br>
+                </code>
+            </figure>
+
+            <figure class="php1">
+                <img src="_imagens/phpimagens.jpg">
+                <figcaption class="legenda2">
+                    <h1>Logo tipo da Linguagem PHP.</h1>
+                    <b>Código limpo e legível!</b>
+
+                </figcaption>
+            </figure>
+            <p>Cada linguagem de programação é diferente da outra, contendo palavras-chave próprias. Exemplos de linguagens
+                de alto nível são C++, Java, C#, Delphi (Pascal), PHP, Visual Basic, etc.</p>
+            </article>
+        </section>
+
+        <aside id="lateral">
+            <article id="ranking">
+            <h1> Ranking de Linguagens</h1>
+            <p>Você sabe quais são as linguagens de programação mais usadas? Vários índices de popularidade e alcance das linguagens
+                de programação são publicados periodicamente. </p>
+            <p>Vamos apresentar os principais deles para termos uma visão sobre quais são as linguagens mais demandadas do mercado.</p>
+
+            <table id="tabela">
+
+                <tr>
+                    <td class="topo1">Rank</td>
+                    <td class="topo1">Language</td>
+                    <td class="topo1">Share</td>
+                    <td class="topo1">Trend</td>
+                </tr>
+                <tr>
+                    <td class="lateral1">1</td>
+                    <td class="lateral2">Java</td>
+                    <td class="lateral2">21.5 %</td>
+                    <td class="lateral2"> -1.4 %</td>
+                </tr>
+                <tr>
+                    <td class="lateral1">2</td>
+                    <td class="lateral2">Python</td>
+                    <td class="lateral2">19.3 %</td>
+                    <td class="lateral2"> +5.6 %</td>
+                </tr>
+                <tr>
+                    <td class="lateral1">3</td>
+                    <td class="lateral2">PHP </td>
+                    <td class="lateral2">8.3 %</td>
+                    <td class="lateral2">-1.4 %</td>
+                </tr>
+                <tr>
+                    <td class="lateral1">4</td>
+                    <td class="lateral2">Javascript</td>
+                    <td class="lateral2">7.9 %</td>
+                    <td class="lateral2">+0.3 %</td>
+                </tr>
+                <tr>
+                    <td class="lateral1">5</td>
+                    <td class="lateral2">C#
+                        <td class="lateral2">7.6 %</td>
+                        <td class="lateral2">-0.8 %</td>
+                </tr>
+            </table>
+            <p>Para mais informações e atualizações confira em
+                <a id="pypl" href="https://pypl.github.io/PYPL.html" target="_blank">
+                PYPL</a>.</p>
+                </article>
+                <article id="videoexp"><br>
+                    <h1> Popularidade das Linguagens</h1>
+                    <p>O vídeo a seguir tem como objetivo explanar alguns motivos pelos quais determinadas linguagens se mantem no topo de ferramentas mais usadas.</p>
+                    <video id="videoling" controls="controls">
+                        <source src="_videos/videolp.mp4" type="video/mp4">
+                        </video>
+                </article>
+        </aside>
+
+
+
+            <footer id="rodape">
+                Copyright 2017 - by Gabriel Takahashi
+                <br>
+                <img class="iconesoc" src="_imagens/facebook1.jpeg">
+                <a href="https://www.facebook.com/gabriel.frederico.505" target="_blank">Facebook</a> |
+                <img class="iconesoc" src="_imagens/instagram.jpeg">
+                <a href="https://www.instagram.com/grabson3/?hl=pt-br" target="_blank"> Instagram</a>
+                </br>
+            </footer>
+        </div>
+    </body>
+
+    </html>
