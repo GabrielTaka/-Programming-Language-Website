@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+
+ul#albumfotos{
+    list-style: none;
+    width: 700px;
+    overflow: hidden;
+    margin-left: 100px;
+}
+
+ul#albumfotos li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    margin: 10px;
+}
+
+ul#albumfotos li#foto01{
+    background: url("../_imagens/udemy.png") no-repeat;
+    background-size: 200px 200px;
+    background-color: white;
+}
+
+ul#albumfotos li#foto02{
+    background: url("../_imagens/alura.png") no-repeat;
+    background-size: 200px 200px;
+    background-color: white;
+}
+
+ul#albumfotos li#foto03{
+    background: url("../_imagens/udacity2.png") no-repeat;
+    background-size: 200px 200px;
+    background-color: white;
+}
+
+ul#albumfotos span{
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0,0,0,.3);
+    line-height: 370px;
+    font-size: 13pt;
+    padding-right: 30px;
+    color: #ffffff;
+    transition: 1s;
+    font-family: arial, sans-serif;
+    opacity: 0;
+}
+
+ul#albumfotos li:hover span{
+    opacity: 1;
+}
+

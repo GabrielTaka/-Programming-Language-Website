@@ -1,0 +1,291 @@
+@charset="UTF-8";
+@font-face{
+	font-family:"fonteAtual";
+	src: url("../_fonts/bubblegum-sans-regular.otf");
+	
+}
+
+p{
+	text-align: justify;
+	text-indent: 50px;
+	font-size:
+}
+
+body{
+	font-family: calibri;
+	background-image: url("../_imagens/azulescovado.jpg");
+		
+}
+
+div#index{
+	width:1000px;
+	margin: -20px auto 10px auto;
+	padding: 10px;
+	border: 1px solid black;
+	box-shadow: 1px 1px 10px black;
+	background-color:white;	
+}
+
+h1.principal{
+	text-align:left;
+	padding-left:30px;
+	font-family: FonteAtual;
+	color: #606060;
+	text-shadow: 1px 1px 1px black;
+	
+	
+}
+
+img#icone{
+	position: absolute;
+	top: 30px;
+	left: 900px;
+
+
+}
+h3.secundario{
+	text-align:left;
+	padding-left:30px;
+	padding-bottom: 70px;
+	color: #88888;
+	text-shadow: 1px 1px 1px grey;
+}
+header{
+	border-bottom: 1px solid #606060;
+	background-repeat: no-repeat;
+	background-position: 650px -20px;
+	
+}
+header nav#menu{
+	margin-top: -20px;
+	position:absolute;
+	top:0;
+	left:670px;
+	
+	
+}
+
+h2.movel{
+	
+	text-align:center;
+}
+
+figure.assembly{
+	border: 1px solid black;
+	box-shadow: 1px 1px 20px black;
+}
+
+figure.assembly1 img{
+	width:100%;
+	margin: 0px 0px -5px 0px;
+}
+figure.assembly1{
+	border: 1px solid black;
+	box-shadow: 1px 1px 20px black;
+	position:relative;
+}
+figcaption.legenda1{
+	position:absolute;
+	top:0;
+	color:black;
+	text-align:center;
+	font-size: large;
+	background-color: rgba(255, 255, 255, 0.9	);
+	width:100%;
+	height:100%;
+	padding:10px
+	box-sizing: img;
+	opacity:0;
+	transition: 1s;
+	
+}
+figcaption.legenda1 h1{
+	font-size: 13pt;
+}
+figure.assembly1:hover figcaption.legenda1{
+	opacity:1;
+}
+
+figure.php{
+	border:1px solid black;
+	box-shadow: 1px 1px 20px black;
+
+}
+
+figure.php1{
+	border:1px solid black;
+	box-shadow: 1px 1px 20px black;
+	position: relative;
+}
+figure.php1 img{
+	width:100%;
+	margin: 0px 0px -5px 0px;
+}
+
+figcaption.legenda2{
+	position:absolute;
+	top:0;
+	color:black;
+	text-align:center;
+	font-size: small-caps;
+	background-color: rgba(255, 255, 255, 0.9	);
+	width:100%;
+	height:100%;
+	padding:10px
+	box-sizing:10px;
+	opacity:0;
+	transition: 1s;
+	
+}
+figcaption.legenda2 h1{
+	font-size: 12pt;
+}
+figure.php1:hover figcaption.legenda2{
+	opacity:1;
+}
+
+nav#menu ul{
+	list-style:none;
+	
+}
+
+nav#menu li{
+	display:inline-block;
+	background-color:rgba(91, 133, 186, 0.8);
+	padding: 8px;
+	margin: 2px;
+	text-transform: uppercase;
+	transition: 1s;
+	}
+
+nav#menu li:hover{
+	background-color: rgba(81, 88, 186, 0.8);
+}
+nav#menu a{
+	color: black;
+	text-decoration: none;
+	
+}
+nav#menu a:hover{
+	color: white;
+	text-decoration:underline;
+}
+
+section#corpo{
+	display:block;
+	width:520px;
+	float:left;
+	border-right: 1px solid #606060;
+	padding-right: 10px;
+}
+
+aside#lateral{
+	display:block;
+	width:450px;
+	float:right;
+	
+}
+footer#rodape{
+	clear:both;
+	border-top: 1px solid #606060;
+	text-align: center;
+	
+}
+footer#rodape a{
+	color:black;
+	
+}	
+
+table#tabela{
+	display:inline-block;
+	border: 1px solid black;
+	border-spacing:0px;
+	margin-left: 80px;
+}
+table#tabela td.topo1{
+	
+	background-color: #606060;
+	border: 1px solid black;
+	padding: 10px;
+	font-weight: bold;
+}
+
+table#tabela td.lateral1{
+	border: 1px solid black;
+	background-color: #888888;
+	padding: 10px;
+	font-weight: bold;
+}
+
+table#tabela td.lateral2{
+	border: 1px solid black;
+	padding: 10px;
+	background-color: rgba(255, 255, 210, 0.5);
+	
+}
+
+a#pypl{
+	text-decoration:none;
+	
+}
+
+header#cabecalho2 h1{
+	font-family: 'fonteAtual', sans-serif;
+	color: #7c7474;
+	color: #606060;
+	text-shadow: 1px 1px 1px black;
+	font-size:20pt;
+}
+header#cabecalho2 h2{
+	font-family: 'fonteAtual', sans-serif;
+	color: #b9b0b0;
+	
+	font-size: 12pt;
+
+}
+
+.direita{
+	display: block;
+	text-align: right;
+	font-size:8pt;
+	color: #888888;
+	margin-bottom: 0px;
+}
+
+article h2{
+	background-color: #888888;
+	
+
+}
+
+article h3{
+	font-family: 'fonteAtual', sans-serif;
+	color: #b9b0b0;
+	font-size: 12pt;
+}
+
+aside#lateral{
+	background-color: #d3d0d0;
+	
+	padding: 5px;
+	margin: 20px auto auto 1px;
+}
+
+aside#lateral h1{
+	background-color: #888888;
+	padding-left: 10px;
+}
+
+.imovel{
+	padding-left: 10px;
+}
+
+video#videoling{
+	width: 450px;
+	margin: auto;
+}
+
+img.iconesoc{
+	margin-top: 5px;
+	padding: 0px;
+}

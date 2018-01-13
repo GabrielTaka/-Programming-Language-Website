@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Linguagem de Programação</title>
+    <script src="_java/funcao.js"></script>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="_css/form.css">
+</head>
+
+
+<body>
+    <div id="index">
+        <header>
+            <h1 class="principal">Programação</h1>
+            <h3 class="secundario">O inglês do séculos XXI</h3>
+            <img id="icone" src="_imagens/duvida.jpeg">
+            <nav id="menu">
+                <ul>
+                    <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/duvida.jpeg')">
+                        <a href="Lp.html"> Home</a>
+                    </li>
+                    <li onmouseover="mudaFoto('_imagens/especificacoes-02.png')" onmouseout="mudaFoto('_imagens/duvida.jpeg')">
+                        <a href="liguagens.html"> Conheça algumas linguagens</a>
+                    </li>
+                    <li onmousemove="mudaFoto('_imagens/livros.jpeg')" onmouseout="mudaFoto('_imagens/duvida.jpeg')">
+                        <a href="cursos.html"> Cursos</a>
+                    </li>
+                    
+                    <li onmousemove="mudaFoto('_imagens/duvida.jpeg')" onmouseout="mudaFoto('_imagens/duvida.jpeg')">
+                        <a href="duvidas.html"> Duvidas</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="corpo-full">
+
+            <article>
+                <header id="cabecalho2"> 
+                <h3>Tecnologia > Dúvidas</h3>
+                <h1>Saiba tudo sobre Programação</h1>
+                <h3 class="intro">por Gabriel Takahashi</h2>
+                <h3 class="direita">Atualizado em 01/Dezembro/2017</h3>
+                </header>
+            </article>
+            <article id="form">
+        
+                    <form method="post" id="formulario">
+                    <fieldset class="field"><legend id="legenda01">Identificação do Usuário</legend>
+                        <p><label for="idnome">Nome: </label><input type="text" name="namenome" id="idnome" size="20" maxlength="20" placeholder="Digite seu nome..."</p> 
+                        <p><label for="idsenha">Senha: </label><input type="text" name="namesenha" id="idsenha" size="20" maxlength="20" placeholder="Digite a sua senha..."> </p>
+                        <p><label for="idemail">E-mail: </laber><input type="email" name="nameemail" id="idemail" size="40" maxlength="50" placeholder="Digite seu e-mail..." >   </p>
+                        
+                       <fieldset id="sexo"> <legend>Sexo</legend>
+                        <input type="radio" name="namesexo" id="cmasc" > <label for="cmasc">Masculino</label><br>
+                        <input type="radio" name="namesexo" id="cfem"> <label for="cfem">Feminino</label>
+                        </fieldset>
+                       <p>  Data de Nascimento:<input type="date"></p>
+                    </fieldset> 
+                    <fieldset class="field">
+                        <legend>Endereço do Usuário</legend>
+                        <p><label for="idlog">Logradouro: </label><input type="text" name="namelog" id="idlog" size="30" maxlength="40" placeholder="Ex: Av. Rua. Num."></p>
+                       <p> <label for="idnum">Número: </label><input type="number" name="namenum" id="idnum" min="0" max="1000"></p>
+                        <p><label for="idestado">Estado:
+                        <select name="test" id="idestado">
+                            <optgroup name="namegroup" label="Sudeste">
+                            <option>São Paulo</option>
+                            <option>Rio de Janeiro</option>
+                        </optgroup>
+                    </select>
+                </p>
+                       
+                        <p><laber for="idcidade"></laber>Cidade: <input name="cidade" id="idcidade"type="text" size="20" maxlength="30" placeholder="Digite sua cidade..."></p>
+                    </fieldset>
+                    <fieldset>
+                    <legend >Mensagem do Usuário</legend>
+                        <p id="msg"><label for="idarea" >Mensagem </label></p>
+                                <textarea name="namearea" id="idarea" rows="5" cols="75"></textarea>
+                        
+                    </fieldset>
+                    </form>
+                    
+            </article>
+
+
+
+
+            <footer id="rodape">
+                    Copyright 2017 - by Gabriel Takahashi
+                    <br>
+                    <img class="iconesoc" src="_imagens/facebook1.jpeg">
+                    <a href="https://www.facebook.com/gabriel.frederico.505" target="_blank">Facebook</a> |
+                    <img class="iconesoc" src="_imagens/instagram.jpeg">
+                    <a href="https://www.instagram.com/grabson3/?hl=pt-br" target="_blank"> Instagram</a>
+                    </br>
+                </footer>
+            
+            </div>
+        </body>        
+        </html>
